@@ -1,0 +1,406 @@
+/* * {
+  border: 1px solid black;
+} */
+
+html, body {
+    height: auto;
+    width: 100%;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 100%; 
+    height: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-bar {
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(23, 41, 45, .85);
+    margin-left: -3px;
+    z-index: 9999;
+  }
+  .nav-left {
+    min-width: 50%;
+    max-width: 50%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .nav-left a{
+    width: 100%;
+  }
+  
+  .nav-right {
+    max-width: 50%;
+    min-width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .nav-right a {
+    min-width: 25%;
+    width: auto;
+    /* padding-left: 2%; */
+    padding-right: 5%;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-left h2 {
+    width: 100%;
+    padding-left: 5%;
+    color: white;
+    height: auto;
+    width: auto;
+  }
+  
+  .blurb {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-image: url('/images/fullSDLC.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .welcome {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    height: auto;
+    min-width: 100%;
+    width: 100%;
+  }
+  .welcome h1 {
+    text-align: center;
+    /* padding-right: 25%; */
+    min-width: 100%;
+  }
+  
+  .name-on-header {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .name-on-header h1 {
+    /* padding-left: 15%; */
+    min-width: 100%;
+    text-align: center;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    height: auto;
+    margin-left: 2%;
+    min-height: 350px;
+  }
+  .about-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 15%;
+  }
+  
+  .about-blurb {
+    /* display: flex; */
+    /* justify-content: center; */
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .about-text {
+    min-width: 60%;
+    width: 60%;
+    height: 100%;
+    max-height: 100%;
+    /* border: 1px solid blue; */
+  }
+  
+  .about-img {
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+  }
+  .about-img img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    max-height: 220px;
+    max-width: 220px
+  }
+  
+  .skills {
+    display: flex;
+    background-image: url('https://newevolutiondesigns.com/images/freebies/texture-wallpaper-preview-44.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    color: rgb(138, 143, 150);
+    text-shadow: none;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  
+  .skills h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skills-block {
+    height: 60px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .skills-text {
+    font-size: .8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .icon {
+    font-size: 3rem;
+  }
+  
+  .projects {
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid blue; */
+  }
+  
+  .carousel {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: rgb(231, 247, 250);
+  }
+  
+  .carousel h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0;
+  }
+  .carousel p {
+    width: 100%;
+    text-align: center;
+    /* margin: 0; */
+    padding: 0;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 45%;
+    font-size: 3rem;
+    transition: .6 ease;
+  }
+  
+  .prev {
+    left: 8%;
+  }
+  
+  .next {
+    right: 8%;
+  }
+  
+  
+  .slide {
+    width: auto;
+    height: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  .dots {
+    text-align: center;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .select-project {
+    z-index: 9998; 
+    width: 90%; 
+    height: auto; 
+    position: fixed;
+    margin-left: 5%;
+    margin-top: 5px; 
+    top: 0; 
+    left: 0; 
+    display: flex;
+    flex-direction: column;
+    background: url('https://images.homedepot-static.com/productImages/3bb850aa-f0b8-46ea-83de-5d12b55a6146/svn/beyond-basics-wallpaper-420-87152-64_1000.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    /* background:rgba(128, 128, 128, 0.974); */
+    padding-top: 3%;
+    /* justify-content: space-around; */
+    padding-bottom: 5%;
+    max-height: 79%;
+  }
+  
+  .slide img {
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .exit {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .select-project img {
+    height: auto;
+    width: 60%;
+  }
+  
+  .select-project p {
+    width: 70%;
+  }
+  
+  .select-project a {
+    display: inline;
+  }
+  
+  .contact {
+    height: 350px;
+    width: 100%;
+    background: rgba(255, 200, 156, .2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  .contact-devices {
+    height: 100%;
+    min-width: 97%;
+    margin-left: 3%;
+  }
+  
+  .contact-devices h4 {
+    font-size: 2rem;
+  }
+  
+  .devices div {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 4rem;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .phone:hover, .email:hover {
+    cursor: pointer;
+  }
+  
+  
+  .contact-right {
+    height: 100%;
+    min-width: 45%;
+    margin-left: 5%;
+  }
+  
+  .cell-text, .email-text {
+    font-size: 1.2rem;
+    margin-left: 5%;
+    width: 100%;
+  }
+  
+  footer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(23, 41, 45, .85);
+    margin-left: -3px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  footer div {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer div a {
+    margin-bottom: 3%;
+    text-decoration: none;
+    color: white;
+  }
