@@ -1,0 +1,66 @@
+﻿Ronald Fletcher
+Atlanta, GA
+Security Clearance Eligible, Willing to Relocate
+443-768-7135
+ronfletcher1@me.com
+Summary
+
+Diversified Full-Stack Developer with core functional experience as an IT Business Analyst, Q/A Analyst, Program/Project Manager, Sales Manager and Accountant
+Advanced interpersonal abilities which allows effective communication with Executive level leadership, IT team members, vendors, and end users
+Industry experience includes Mortgage, Broadcasting, Healthcare, Energy,  and Retail with a focus on systems implementation
+Fully functional in all phases of the SDLC with expertise in Agile Development Methodologies
+Development Skills
+
+HTML, CSS, Bootstrap, Flex-Box, Sass
+Javascript, jQuery, JSON, Node.js, Express, React, Redux, REST API, AJAX
+Linux, Python, Stripe (e-commerce), AWS, Apache2
+SSMS, MySQL, MongoDB, PostgreSQL
+WordPress, Visual Studio Code, Sublime Text, Git, GitHub, 
+
+Professional History
+IT Business Analyst
+AmeriSave Mortgage Corporation
+Atlanta, Georgia
+April 2010 – October 2018
+Direct report to CTO responsible for executing company-wide IT projects to support Sales, Operations, and Customers to provide the cutting-edge on line mortgage experience 
+Managed 3rd party vendor relationships for the design and implementation of internal and customer facing chat system
+Managed the design, implementation, testing and deployment of the consumer on line mortgage application (https://apply.amerisave.com) 
+Acted as QA manager responsible for developing testing methodologies and test plans
+Developed and managed the companies on-line help system using WordPress
+Branch Manager
+Heartland Home Finance
+Columbia, Maryland
+February 2002 – November 2008
+Top producing branch consistently exceeding sales quotas while providing excellent customer service to help customers fulfill the dream of homeownership
+Responsible for staffing and managing a team of 10 loan officers and 2 loan processors
+Trained and mentored loan officers in the mortgage process, understanding the needs of the consumer, handling objections, and selling
+Prepared monthly payroll, sales reports,  and branch marketing strategy
+Managed the branch implementation of the company-wide lead system, Velocity ( formerly Leads360)
+Management Consultant
+NOR Consulting
+Columbia, Maryland
+February 1994 – January 2002
+Provided consulting services for the design and implementation of financial systems for healthcare, broadcasting, and managed hosting industries
+Investigate and understand existing systems, connectivity, independencies and challenges and recommend future improvements that align with business needs and solve issues
+Responsible for managing the implementation of the Costpoint and Deltek Accounting Systems
+Responsible for managing the implementation of Microsoft Great Plains and Microsoft Project Server
+Provided Program Management for the design and development of the customer portal for managed hosting services
+W2/1099 Contractor/Consultant for DIGEX, VISICU, NPR, Wang, BET, GE Capital Consulting, DELTEK
+Management Consultant
+Price Waterhouse
+Baltimore, Maryland
+February 1990 – May 1993
+Team member responsible for Analyst functions while applying the PW System Management Methodology (PW SMM) 
+Process and workflow improvement documentation
+Managed the implementation of a 3rd party project billing system
+Systems Accountant
+Texcom, Inc
+Greater Landover, Maryland
+March 1988 – February 1990
+Deltek Systems Implementation lead
+Accounts Payable Accountant 
+Novell Network back-up system administrator
+Education
+
+DigitalCrafts | Certificate in Software Engineering | March 2019  
+Morgan State University | BS Accounting | June 1987
